@@ -16,10 +16,10 @@ ServerEvents.recipes((event) => {
     },
     {
       inputs: [
-        Item.of("minecraft:mossy_cobblestone").toJson(),
-        Item.of("minecraft:cobbled_deepslate").toJson(),
-        Item.of("minecraft:dripstone_block").toJson(),
-        Item.of("minecraft:slime_block").toJson(),
+        Item.of("minecraft:mossy_cobblestone", 2).toJson(),
+        Item.of("minecraft:cobbled_deepslate", 2).toJson(),
+        Item.of("minecraft:clay_ball").toJson(),
+        Item.of("minecraft:slime_ball").toJson(),
       ],
       outputs: [Item.of("minecraft:tuff", 4).toJson()],
       heatRequirement: "heated",
